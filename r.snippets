@@ -1,0 +1,13 @@
+# shiny module output
+snippet smo
+	#' @export
+	${1:name}Output <- function(id){
+		ns <- NS(id)
+		
+		${0}
+	}
+		
+	#' @export
+	${1} <- function(input, output, session){
+		
+	}
